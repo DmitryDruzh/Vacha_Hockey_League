@@ -10,7 +10,7 @@ class AllPlayers(ListView):
 
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super(AllPlayers, self).get_context_data(**kwargs)
-        context['title'] = 'Все игроки'
+        context['title'] = 'Все игроки лиги'
         return context
 
 class InfoOfPlayer(DetailView):
